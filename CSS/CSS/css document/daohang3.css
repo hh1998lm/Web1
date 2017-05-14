@@ -1,0 +1,6 @@
+li{list-style-type: none;height: 50px;padding: 20px 20px 20px 20px;}
+li{float: left;}
+ul a:link{text-decoration: none;}
+a{font-family: 宋体;color: white;}
+.special1{color: green;}
+.special2{color: orange;}

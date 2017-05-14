@@ -1,0 +1,7 @@
+div{padding-top: 10px;}
+li{height: 20px;}
+a{color: black;}
+ul a:link{text-decoration: none;}
+.checked{color: red;}
+ul{list-style-type:none;}
+.menu{width: 200px;height: 50px;border: 1px;color: gray;margin-left: 40px;padding-top: 5px;background-position: -3em 90%;}
