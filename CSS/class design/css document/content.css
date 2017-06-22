@@ -1,0 +1,13 @@
+body{height: 700px;width: 1000px;position: relative;left: 150px;}
+/*页头部分*/
+#banner{background-image: url(../images/banner.jpg);height: 200px;width: 1000px;background-repeat: no-repeat;text-align: center;color: orange;font-size: 50px;}
+#a1:link{text-decoration: none;}
+#a1{font-size: 16px;text-align: center;color: black;font-weight: bolder;}
+/*页面主体部分*/
+p{line-height: 1.5em;text-indent: 2em;}
+img{height: 500px;width: 700px;position: relative;top: 80px;left: 150px;}
+#p1{text-align: center;color: #ea5;font-size: 20px;}
+/*这是页脚部分*/
+#footer{background-image: url(../images/banner.jpg);position: relative;top:250px;height: 100px;width: 1000px;background-repeat: no-repeat;}
+#f11 a{color: red;text-decoration: none;position: relative;left: 150px;}
+#f3{color: red;position: relative;left: 250px;}

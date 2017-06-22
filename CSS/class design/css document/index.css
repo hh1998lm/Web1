@@ -1,0 +1,19 @@
+body{height: 700px;width: 1000px;position: relative;left: 150px;}
+/*页头部分*/
+#banner{background-image: url(../images/banner.jpg);height: 200px;width: 1000px;background-repeat: no-repeat;text-align: center;color: orange;font-size: 50px;}
+#a1:link{text-decoration: none;}
+#a1{font-size: 16px;text-align: center;color: black;font-weight: bolder;}
+/*页面主体部分*/
+#main1 {background-image: url(../images/bg1_.gif);height: 250px;width: 250px;float: left;position: relative;top: 50px;}
+#main1 p{position: relative;top:130px;left: 100px;}
+#main1 a{text-decoration: none;color: red;font-weight: bolder;}
+#main2{background-image: url(../images/bg1_.gif);height: 250px;width: 250px;float: left;position: relative;top: 60px;}
+#main3{background-image: url(../images/bg1_.gif);height: 250px;width: 250px;float: left;position: relative;top: 60px;}
+#main4{background-image: url(../images/bg1_.gif);height: 250px;width: 250px;float: left;position: relative;top: 60px;}
+#main2 a{text-decoration: none;color: red;font-weight: bolder;position: relative;top:150px;left: 100px;}
+#main3 a{text-decoration: none;color: red;font-weight: bolder;position: relative;top:150px;left: 100px;}
+#main4 a{text-decoration: none;color: red;font-weight: bolder;position: relative;top:150px;left: 100px;}
+/*这是页脚部分*/
+#footer{background-image: url(../images/banner.jpg);position: relative;top:350px;height: 100px;width: 1000px;background-repeat: no-repeat;margin-top: 50px;}
+#f11 a{color: red;text-decoration: none;position: relative;bottom: 200px;left: 150px;}
+#f3{color: red;position: relative;bottom: 200px;left: 250px;}
