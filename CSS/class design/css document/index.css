@@ -2,8 +2,12 @@ body{height: 700px;width: 1000px;position: relative;left: 150px;}
 /*页头部分*/
 #banner{background-image: url(../images/banner.jpg);height: 200px;width: 1000px;background-repeat: no-repeat;text-align: center;color: orange;font-size: 50px;}
 #a1:link{text-decoration: none;}
+.c1{position: relative;bottom: 100px;left: 350px;}
+.c1 img{height: 30px;width: 30px;position: relative;bottom: 50px;left: 100px;}
+
 #a1{font-size: 16px;text-align: center;color: black;font-weight: bolder;}
 /*页面主体部分*/
+#p1{color: #ea5}
 #main1 {background-image: url(../images/bg1_.gif);height: 250px;width: 250px;float: left;position: relative;top: 50px;}
 #main1 p{position: relative;top:130px;left: 100px;}
 #main1 a{text-decoration: none;color: red;font-weight: bolder;}

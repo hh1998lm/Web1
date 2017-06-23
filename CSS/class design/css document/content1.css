@@ -2,14 +2,17 @@ body{height: 700px;width: 1300px;}
 /*页头部分*/
 #banner{background-image: url(../images/banner.jpg);height: 200px;width: 1300px;/*background-repeat: no-repeat;*/text-align: center;color: orange;font-size: 50px;}
 #a1:link{text-decoration: none;}
+.c1{position: relative;bottom: 100px;left: 350px;}
+.c1 img{height: 30px;width: 30px;position: relative;bottom: 50px;left: 100px;}
 #a1{font-size: 16px;text-align: center;color: black;font-weight: bolder;}
 /*页面主体部分*/
+#p1{color: #ea5}
 #main1{background-color: #ea5;background-image: url(../images/bg_content1.png);width: 390px;height: 600px;float: left;position: relative;left: 120px;}
 #main2{position: relative;left: 120px;}
-#main3{background-color: #ea5;background-image: url(../images/bg_content1.png);width: 390px;height: 600px;position: relative;left: 770px;bottom: 525px;}
+#main3{background-color: #ea5;background-image: url(../images/bg_content1.png);width: 390px;height: 600px;position: relative;left: 740px;bottom: 525px;}
 #main21 img{margin-right: 30px;}
 #main22 img{margin-left: 30px;}
 /*这是页脚部分*/
-#footer{background-image: url(../images/banner.jpg);position: relative;bottom:450px;left: 120px;background-repeat: no-repeat;}
+#footer{background-image: url(../images/banner.jpg);position: relative;bottom:550px;left: 120px;background-repeat: no-repeat;}
 #f11 a{color: red;text-decoration: none;position: relative;left: 150px;}
 #f3{color: red;position: relative;left: 250px;}
