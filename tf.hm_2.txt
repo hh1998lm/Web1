@@ -1,0 +1,6 @@
+name_scope:解决近似节点命名重复的问题，并对不同功能的节点加以区分，可以为作用域中的节点name添加一个或多个前缀，通过前缀划分内部和外部范围
+variable_scope：主要用于管理变量作用域以及与变量相关的操作
+
+相同点：都会返回一个上下文管理器
+
+不同点：使用`name_scope`可以给`Op`的`name`加前缀，但不包括`tf.get_variable()`创建的变量，这是因为`tf.get_variable`是一种特殊的操作，其只能与`variable_scope`配合完成相应功能。	`variable_scope`的`name`并不总是和`name_scope`的`name`一致		创建两个或多个`variable_scope`时可以填入相同的`name`，此时相当于创建了一个`variable_scope`与两个或多个`name_scope`。
